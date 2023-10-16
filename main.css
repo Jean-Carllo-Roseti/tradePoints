@@ -1,0 +1,159 @@
+header,
+.col-md-7 button {
+    background-color: rgb(233, 135, 15);
+}
+
+header .container  ul li a {
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #fff;
+    color: black;
+}
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    background-color: rgb(234, 159, 68);
+}
+
+.img-carousel {
+    height: 600px;
+}
+
+.icone {
+    height: 100px;
+}
+
+.corSim {
+    background-color: rgb(173, 238, 7);
+}
+
+.corNao {
+    background-color: rgb(238, 7, 146);
+}
+
+#fiel {
+    margin-bottom: 0;
+}
+
+.img.fiel {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.padrao-img {
+    width: 420px;
+    height: 400px;
+}
+
+.img-destino {
+    height: 150px;
+
+}
+
+.col-md-7 button:hover {
+cursor: pointer;
+background-color: rgb(234, 159, 68);
+font-weight: bold;
+}
+
+.col-md-5 .row ul {
+    display: flex;
+
+}
+
+.col-md-5 .row ul li  {
+    list-style: none;
+}
+
+.col-md-55 .row ul li a {
+    color: black;
+    
+}
+
+
+@media  (max-width: 468px) {
+    .img-destino {
+        height:250px
+    }
+    .padrao-img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .img-carousel {
+        height: 380px;
+    }
+
+    .fidelidade {
+        margin-top: 0;
+        
+    }
+
+    .enviar {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    } 
+
+    .padrao-img {
+        margin: auto;
+    }
+
+    .img-fiel {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+
+    .fidelidade p {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 469px) and (max-width: 540px) {
+    .padrao-img {
+        margin: auto;
+    }
+    
+    .img-ajuste{
+        margin-top: 16px;
+    }
+
+    .img-destino {
+        height:250px
+    }
+
+    .enviar {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    } 
+}
+
+@media (min-width: 541px) and (max-width: 767px) {
+    .padrao-img {
+        margin: auto;
+    }
+    
+    .img-ajuste{
+        margin-top: 16px;
+    }
+
+    .img-destino {
+        height:250px
+    }
+
+    .enviar {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    } 
+}
+
+/*criar uma regra responsiva de 768-1199 px*/
