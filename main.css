@@ -37,6 +37,11 @@ header .container  ul li a {
     background-color: rgb(173, 238, 7);
 }
 
+.img-ajuste {
+    width: 356px;
+    height: 356px;
+}
+
 .corNao {
     background-color: rgb(238, 7, 146);
 }
